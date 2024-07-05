@@ -1,0 +1,76 @@
+.topContainer {
+  display: flex;
+}
+
+.imagePartLeft {
+  width: 50%;
+  height: 100vh;
+}
+
+.welcomeText {
+  position: absolute;
+  top: 6rem;
+  left: 10rem;
+  right: 10rem;
+
+  font-size: 23px;
+  font-family: "Playwrite VN", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+}
+
+.formContainer {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerFormContainer {
+  width: 65%;
+  height: 70%;
+  border-radius: 15px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.userLoginSignUpSelectedBox {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 46%;
+  padding: 0.5rem;
+  margin: auto;
+  border-radius: 25px;
+  cursor: pointer;
+  
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.login {
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  padding-bottom: 0.2rem;
+  border-radius: 20px;
+}
+
+.register {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.2rem;
+  border-radius: 20px;
+  
+}
+
+.loginSignUpContainer {
+  height: 85%;
+  width: 100%;
+}
